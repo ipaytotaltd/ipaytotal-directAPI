@@ -242,11 +242,11 @@ print_r($responseData);
 
 <h3>Response</h3>
 
-<p>After successful CURL request, response will be sent in JSON format.</p>
+<p>After a successful CURL request, the response will be sent in JSON format.</p>
 
 <h4>Validation Errors</h4>
 
-<p>If there will be validation errors in request, response will be like:</p>
+<p>If in case of validation errors in request, response will be like:</p>
 
 <pre><span style="color: rgb(245, 54, 92);">{
     "status": "fail",
@@ -261,7 +261,7 @@ print_r($responseData);
 }  </span> 
 </pre>
 
-<h5>Mainly there are 3 types of response with bellow Parameter:</h5>
+<h5>Mainly there are 3 types of response with the following Parameter:</h5>
 
 <ol>
 	<li>
@@ -277,7 +277,7 @@ print_r($responseData);
 
 <h4>&nbsp;</h4>
 
-<h4>Success or Decline</h4>
+<h4>Success or Declined</h4>
 
 <p>If response contains &nbsp;“status”:"fail” or &nbsp; “status”:"success” it means transaction is complete and it doesn’t need to redirect to 3DS URL.</p>
 
@@ -290,7 +290,7 @@ print_r($responseData);
 } </span>       
 </pre>
 
-<h5>This is declined transaction response</h5>
+<h5>This is the declined transaction response</h5>
 
 <pre><span style="color: rgb(231, 76, 60);">{
     "status": "failed",
@@ -348,7 +348,7 @@ print_r($responseData);
 
 <p>&nbsp;</p>
 
-<h3>Response After 3DS response</h3>
+<h3>Response After 3DS</h3>
 
 <h5>After 3D secure is completed, the user will be redirected to merchant website.</h5>
 
