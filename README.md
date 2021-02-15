@@ -26,6 +26,16 @@
 			<td style="vertical-align: top; white-space: nowrap;">API key from iPaytotal account</td>
 		</tr>
 		<tr>
+			<td style="vertical-align:top; white-space:nowrap">method</td>
+			<td style="vertical-align:top; white-space:nowrap">N</td>
+			<td style="vertical-align:top; white-space:nowrap">String</td>
+			<td style="vertical-align:top; white-space:nowrap">pass here your payment method.<br />
+			possible value is = (unipay, visa-mc, crypto)<br />
+			unipay (for unionpay card),<br />
+			visa-mc (for visa, master, amex, jcb, discover),<br />
+			crypto (for crypto currency)</td>
+		</tr>
+		<tr>
 			<td style="vertical-align: top; white-space: nowrap;">first_name</td>
 			<td style="vertical-align: top; white-space: nowrap;">Y</td>
 			<td style="vertical-align: top; white-space: nowrap;">String</td>
